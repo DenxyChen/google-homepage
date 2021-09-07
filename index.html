@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-    <head>
-        <title>Google</title>
-    </head>
-    <body>
-        <div id="main">
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+<head>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-wrap">
+        <div class="header-left">
+            <a id="about"
+                href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a id="store"
+                href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+        </div>
+        <div class="header-right">
+            <a id="email" href="https://mail.google.com/mail/u/0/">Gmail</a>
+            <a id="images" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+            <div id="app-logo">
+                <img src="/images/apps.png">
+            </div>
+            <form class="inline">
+                <button id="sign-in"
+                    formaction="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign
+                    In</button>
+            </form>
+        </div>
     </div>
-    </body>
+    <div id="main">
+        <img id="google-logo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
+        <div class="search">
+            <img id="search-logo" src="/images/search.png">
+            <div id="search-bar">
+                <input id="text-box" type="text" name="search-bar"></input><br>
+            </div>
+        </div>
+        <form class="search">
+            <button id="search-button" name="search">Google Search</button>
+            <button id="lucky-button" name="feeling-lucky">I'm Feeling Lucky</button>
+        </form>
+    </div>
+    <div id="footer-wrap">
+        <div class="footer-left">
+            <a id="advertising"
+                href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a>
+            <a id="business"
+                href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u">Business</a>
+            <a id="how-search-works" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
+        </div>
+        <div class="footer-right">
+            <a id="privacy" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a id="terms" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            <a id="terms" href="">Settings</a>
+        </div>
+    </div>
+</body>
